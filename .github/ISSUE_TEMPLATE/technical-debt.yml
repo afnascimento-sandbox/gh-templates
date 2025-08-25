@@ -3,6 +3,13 @@ description: Create a Technical debt issue.
 title: "🛠️ "
 type: "Feature"
 labels: ["technical-debt"]
-body: |
-  ## Description:
-  ...
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      value: |
+        ## Description:
+        ...
+    validations:
+      required: true

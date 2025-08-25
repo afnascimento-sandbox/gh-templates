@@ -2,12 +2,28 @@ name: Report a Bug
 description: Report a bug found in the application
 title: "🐞 "
 type: "Bug"
-body: |
-  ## Description:
-  Describe the situation ...
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      value: |
+        ## Description:
+        Describe the situation ...
 
-  ### Current Behaviour:
-  ...
+        ### Current Behaviour:
+        ...
 
-  ### Expected Behaviour:
-  ...
+        ### Expected Behaviour:
+        ...
+    validations:
+      required: true
+  - type: dropdown
+    id: environments
+    attributes:
+      label: Which environments are affected?
+      multiple: true
+      options:
+        - Prod
+        - Dev
+        - Local
