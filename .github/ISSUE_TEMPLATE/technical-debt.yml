@@ -8,5 +8,8 @@ body:
     id: description
     attributes:
       label: Description
+      value: |
+        ## Description:
+        ...
     validations:
       required: true
