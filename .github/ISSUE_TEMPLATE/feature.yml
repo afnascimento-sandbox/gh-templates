@@ -1,6 +1,5 @@
-name: New Feature
+name: ✨ New Feature
 description: Request a new feature for the application
-title: "New Feature"
 type: "Feature"
 body:
   - type: textarea

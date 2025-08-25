@@ -1,6 +1,5 @@
-name: Report a Bug
+name: 🐞 Report a Bug
 description: Report a bug found in the application
-title: "🐞 "
 type: "Bug"
 body:
   - type: textarea
