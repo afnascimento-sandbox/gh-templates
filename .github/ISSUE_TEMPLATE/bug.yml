@@ -1,0 +1,20 @@
+name: Report a Bug
+description: Report a bug found in the application
+title: "🐞 "
+type: "Bug"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: dropdown
+    id: environments
+    attributes:
+      label: Which environments are affected?
+      multiple: true
+      options:
+        - Prod
+        - Dev
+        - Local

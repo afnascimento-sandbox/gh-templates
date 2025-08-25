@@ -1,0 +1,22 @@
+name: New Feature
+description: Request a new feature for the application
+title: "New Feature"
+type: "Feature"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      value: |
+        **As a** ...,
+        **I need to** ...
+        **so that** ...
+        
+        **Description:**
+        Describe the new feature ...
+        
+        **CoA:**
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
