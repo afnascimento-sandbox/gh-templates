@@ -6,9 +6,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
+      label: "Description:"
       value: |
-        ## Description:
         Describe the situation ...
 
         ### Current Behaviour:

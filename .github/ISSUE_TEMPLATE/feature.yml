@@ -6,13 +6,12 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
+      label: "### Description:"
       value: |
         **As a** ...,
         **I need to** ...
         **so that** ...
         
-        **Description:**
         Describe the new feature ...
         
         **CoA:**
