@@ -1,6 +1,6 @@
 ---
 name: 🐞 Report a Bug
-description: Report a bug found in the application
+about: Report a bug found in the application
 type: "Bug"
 ---
 

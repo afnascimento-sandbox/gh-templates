@@ -1,6 +1,6 @@
 ---
 name: 🛠️ Technical Debt issue
-description: Create a Technical debt issue.
+about: Create a Technical debt issue.
 type: "Feature"
 labels: ["technical-debt"]
 ---
