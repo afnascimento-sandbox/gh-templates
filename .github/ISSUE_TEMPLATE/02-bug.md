@@ -2,6 +2,7 @@
 name: 🐞 Report a Bug
 about: Report a bug found in the application
 type: "Bug"
+priority: "High"
 ---
 
 ## Description
